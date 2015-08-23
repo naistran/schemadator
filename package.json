@@ -1,7 +1,7 @@
 {
-  "name": "node-base",
+  "name": "schemadator",
   "version": "0.0.1",
-  "description": "Modern Node.js base",
+  "description": "Validate JSON schema",
   "main": "lib/index.js",
   "author": "",
   "options": {

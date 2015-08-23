@@ -4,19 +4,28 @@
   "description": "Modern Node.js base",
   "main": "lib/index.js",
   "author": "",
+  "options": {
+    "mocha": "--require scripts/mocha-bootload src/**/__tests__/**/*.js --timeout 10000"
+  },
   "scripts": {
+    "test": "npm run lint && npm run testonly",
+    "testonly": "mocha $npm_package_options_mocha",
     "build": "scripts/build",
     "lint": "scripts/lint",
     "prepublish": "scripts/prepublish"
   },
   "dependencies": {
     "babel": "^5.8.20",
-    "babel-runtime": "^5.8.20"
+    "babel-runtime": "^5.8.20",
+    "is-my-json-valid": "^2.12.1",
+    "ramda": "^0.17.1",
+    "to-dot": "0.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^4.0.5",
     "eslint": "^1.0.0",
     "eslint-config-airbnb": "0.0.7",
-    "eslint-plugin-react": "^3.1.0"
+    "eslint-plugin-react": "^3.1.0",
+    "mocha": "^2.2.5"
   }
 }

@@ -2,10 +2,16 @@
   "name": "node-base",
   "version": "0.0.1",
   "description": "Modern Node.js base",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "",
+  "scripts": {
+    "build": "scripts/build",
+    "lint": "scripts/lint",
+    "prepublish": "scripts/prepublish"
+  },
   "dependencies": {
-    "babel": "^5.8.20"
+    "babel": "^5.8.20",
+    "babel-runtime": "^5.8.20"
   },
   "devDependencies": {
     "babel-eslint": "^4.0.5",

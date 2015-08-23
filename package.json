@@ -1,6 +1,6 @@
 {
   "name": "schemadator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Validate JSON schema",
   "main": "lib/index.js",
   "author": "",

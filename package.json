@@ -18,7 +18,6 @@
     "babel": "^5.8.20",
     "babel-runtime": "^5.8.20",
     "is-my-json-valid": "^2.12.1",
-    "ramda": "^0.17.1",
     "to-dot": "0.0.4"
   },
   "devDependencies": {
